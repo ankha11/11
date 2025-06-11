@@ -67,4 +67,11 @@ body {
 
 }
 
-.botão
+.botão {
+  padding: 10px; 
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  
+}
