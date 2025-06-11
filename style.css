@@ -1,0 +1,70 @@
+/* estilo geral para resey basico */
+*{ 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+/* corpo da pagina */
+body {
+   font-family: Arial, sans-serif;
+   line-height: 1,6;
+   background-color: #f4f4f4;
+   color: #333
+
+}
+
+/* cabeçalho com flex blox: titulo a esquerda e navegação á direita */
+#cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    padding: 0px;
+
+}
+
+.titulo {
+  font-size: 24px;
+
+}
+
+/* seção com 3 comentarios organizados lado a lado */
+.seção-conteudo {
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ padding: 40px 20px;
+ background-color: #ffffff;
+}
+
+/* cada container individual */
+.container {
+  background-color: #c1c1c1;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* estitilos dos elementos do container */
+.container-titulo {
+  font-size: 20 px;
+  margin-bottom: 10px;
+}
+
+.container-texto {
+  margin-bottom: 10px;
+}
+
+.campo-formulariom  {
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
+
+.botão
