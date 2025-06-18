@@ -1,0 +1,91 @@
+/*estilo geral para reset basico*/
+*{ 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+/* corpo da pagina */
+body {
+   font-family: Arial, sans-serif;
+   line-height: 1,6;
+   background-color: #0077cc;
+   color: #333
+
+}
+
+/* cabeçalho com flex blox: titulo a esquerda e navegação á direita */
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 185, 255);
+    color: rgb(0, 0, 0);
+    padding: 40px;
+
+}
+
+.titulo {
+  font-size: 24px;
+
+}
+
+.navegacao a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 15px;
+
+}
+
+.navegacao a u{
+    text-decoration: underline;
+    color: aqua;
+
+
+}
+
+/* seção com 3 comentarios organizados lado a lado */
+.secao-conteudo {
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ padding: 40px 20px;
+ background-color: #ffffff;
+}
+
+/* cada container individual */
+.container {
+  background-color: #c1c1c1;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* estitilos dos elementos do container */
+.container-titulo {
+  font-size: 20 px;
+  margin-bottom: 10px;
+}
+
+.container-texto {
+  margin-bottom: 10px;
+}
+
+.campo-formulariom  {
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
+
+.botão {
+  padding: 10px; 
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  
+}
