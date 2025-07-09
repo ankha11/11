@@ -3,58 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jogos crackeados</title>
+    <title >jogos crackeados</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--cabeçalho com titulo de navegaação-->
-    <header> id cabeçalho</header>
-    <h1>jogos crackeados</h1>
+    <header id="cabecalho" >
+    <h1 >jogos crackeados</h1>
     <nav class="navegação">
         <a href="index.html">inicio</a>
         <a href="contato.html">contato</a>
     </nav>    
-    <header>
+</header>
+
+<img src="img do lagarto.jpg" alt="">
+
+
+
+</script>
 
     <!-- seção com tres conteiners-->
-    <section class="seçao-conteudo">
+    <section class="secao-conteudo">
         <!--container 1-->
         <div class="container">
-            <h2 class="container-titulo">jogo 1</h2>
-            <p class="container texto">quanto é 1+1?</p>
-            <input type="text" placehoider="digite sua resposta" class="campo-formulrio"/>
-            <button class="resposta">resposta aparecera aqui</button>
+            <h2 class="container-titulo" >jogo 1</h2>
+            <p class="container-texto">adivinhe o numero de 1 a 10?</p>
+            <input id="plane1" type="text" placehoider="digite sua resposta" class="campo-formulrio"/>
+            <button onclick="adivinhar()" class="botao">enviar</button>
+            <h3 id="resposta1">resposta</h3>
         </div>
     
-        <!--container 1-->
+        <!--container 2-->
         <div class="container">
             <h2 class="container-titulo">jogo 2</h2>
-            <p class="container texto">quem é o atual lida da f1?</p>
-            <input type="text" placehoider="digite sua resposta" class="campo-formulrio"/>
-            <button class="resposta">resposta aparecera aqui</button>
+            <p id="calculo" class="container-texto">TABUADA</p>
+            <input id="plane2" type="text" placehoider="digite sua resposta" class="campo-formulrio"/>
+            <button onclick="tabuada()" class="botao">enviar</button>
+            <h3 id="resposta2">resposta</h3>
+            <button onclick="resetTabuada()" class="botao">reset</button>
         </div>
 
-        <!--container 3-->
+
         <div class="container">
-            <h2 class="container-titulo">jogo 3</h2>
-            <p class="container texto">quanto tempo é necessario para encher o grand canyon com urina de uma pessoa so?</p>
-            <input type="text" placehoider="digite sua resposta" class="campo-formulrio"/>
-            <button class="resposta">resposta aparecera aqui</button>
+            <h2 class="container-texto">jogo4</h2>
+            <p class="container-texto">qual o valor do x nessa equação "15-2*2x=10/2-1"</p>
+            <p id="equação"class="container texto"></p>
+            <input id="plane4" type="text" placehoider="digite sua resposta" class="campo-formulrio">
+            <button onclick=""class="botao">enviar</button>
+            <h3 id="resposta4">resposta</h3>
         </div>
+
+  
+
+    </section>
+    <img src="IMAGE TOBY.jpg" alt="">
 
     <!-- Rodape -->
      <footer id="rodape">
-        <p>projeto do hellow 2025 - senai</p>
-
+       <p style="color: chartreuse;">projeto do hellow 2025 - senai</p>
      </footer>
 
-
-
-
-
-
-
-    </header>
+     <script src="script.js"></script>
 
     
 </body>
